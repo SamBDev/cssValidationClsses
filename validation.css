@@ -1,0 +1,16 @@
+input[type=email]:valid {
+	background-color: green;
+}
+
+input[type=email]:invalid{
+	background-color: red;
+}
+
+/*tel is only supported by safari8 according to W3 schools*/
+input[type = phone]:valid{
+	background-color: green;
+}
+
+input[type=phone]:invalid{
+	background-color: red;
+}
